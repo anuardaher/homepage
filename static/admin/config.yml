@@ -2,7 +2,6 @@ backend:
   name: github
   repo: anuardaher/new-homepage
   branch: master
-  site_domain: https://anuar.netlify.com
 
 media_folder: "static/media"
 public_folder: "/media"
