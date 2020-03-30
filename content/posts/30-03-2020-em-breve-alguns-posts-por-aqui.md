@@ -2,7 +2,7 @@
 template: post
 title: 'Em breve, alguns posts por aqui :)'
 slug: mussum
-draft: true
+draft: false
 date: 2020-03-30T04:34:08.105Z
 description: >-
   Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis
