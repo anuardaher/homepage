@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import moment from 'moment';
+import 'moment/locale/pt-br';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
@@ -14,8 +15,8 @@ const Feed = ({ edges }: Props) => (
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
-          <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
-            {moment(edge.node.frontmatter.date).format('MMMM YYYY')}
+          <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).locale('pt-br').format('DD [de] MMMM [de] YYYY')}>
+            {moment(edge.node.frontmatter.date).locale('pt-br').format('DD [de] MMMM [de] YYYY')}
           </time>
           <span className={styles['feed__item-meta-divider']} />
           <span className={styles['feed__item-meta-category']}>
@@ -26,7 +27,7 @@ const Feed = ({ edges }: Props) => (
           <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
-        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
+        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Leia mais</Link>
       </div>
     ))}
   </div>

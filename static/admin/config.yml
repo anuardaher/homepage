@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: anuardaher/new-homepage
   branch: master
+  site_domain: https://anuar.netlify.com
 
 media_folder: "static/media"
 public_folder: "/media"
@@ -14,7 +16,7 @@ collections:
     label: "Posts"
     folder: "content/posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
     preview_path: "posts/{{fields.slug}}"
     fields:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}

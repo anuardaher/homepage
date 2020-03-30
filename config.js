@@ -1,43 +1,43 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://anuar.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  title: 'Anuar Daher ',
+  subtitle: 'Desenvolvedor de sofware com enfâse em tecnologias baseadas no Javascript.',
+  copyright: 'Anuar Daher©  ' + new Date().getFullYear(),
+  disqusShortname: 'anuardaher',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-162146436-1',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Artigos',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Sobre mim',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Entre em contato',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Anuar Daher',
+    photo: '/anuar.jpg',
+    bio: 'Desenvolvedor de sofware com enfâse em tecnologias baseadas no Javascript.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'anuar_daher@hotmail.com',
+      facebook: 'anuar.daher.9',
+      telegram: 'anuardaher',
+      twitter: '',
+      github: 'anuardaher',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'anuar-daher-015691104/',
+      instagram: 'annuardaher/',
       line: '',
       gitlab: '',
       weibo: '',
