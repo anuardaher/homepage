@@ -1,15 +1,13 @@
 ---
 template: page
-title: Quem é o Anuar?
+title: Quem sou
 socialImage: /media/image-2.jpg
 slug: sobre
 draft: false
 ---
-Tenho 27 anos e moro em Goiânia - GO. Sou formado em Sistemas de Informação pela Universidade Federal de Goiás e, atualmente, trabalho como Desenvolvedor Pleno Fullstack na ONI Soluções em Saúde. Gosto de estar com amigos e creio que compartilhar conhecimento seja a melhor maneira de aprender.
+Tenho 27 anos e moro em Goiânia – GO. Sou formado em Sistemas de Informação pela Universidade Federal de Goiás e, atualmente, trabalho como Desenvolvedor Pleno Fullstack na ONI Soluções em Saúde. Gosto de estar com amigos e creio que compartilhar conhecimento seja a melhor maneira de aprender.
 
 ![Pitch final no Hackinnovation Mobinova, hackaton para idealizar soluções em transporte público no qual atuei como desenvolvedor](/media/hackaton.jpg "Anuar Daher - Desenvolvedor de Software")
-
-Pitch final no Hackinnovation Mobinova, hackaton para idealizar soluções em transporte público no qual atuei como desenvolvedor em 2019.
 
 Trabalhei 7 anos no serviço público como Assessor de Planejamento na [Prefeitura de Aparecida de Goiânia](https://www.aparecida.go.gov.br/), cidade vizinha à Goiânia. Mesmo não atuando na área de tecnogia, minha primeira experiência profissional foi considerável para me ensinar a lidar com pessoas, processos e ter senso de liderança. 
 
