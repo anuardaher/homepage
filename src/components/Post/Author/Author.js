@@ -10,16 +10,16 @@ const Author = () => {
   return (
     <div className={styles['author']}>
       <p className={styles['author__bio']}>
-        {author.bio}
-        <a
-          className={styles['author__bio-twitter']}
-          href={getContactHref('linkedin', author.contacts.linkedin)}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>{author.name}</strong> on Linkedin
-        </a>
+        {author.name}, {author.bio}
       </p>
+      <a
+        className={styles['author__bio-twitter']}
+        href={getContactHref('linkedin', author.contacts.linkedin)}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <strong>{author.name}</strong> on Linkedin
+      </a>
     </div>
   );
 };

@@ -17,17 +17,13 @@ module.exports = {
     },
     {
       label: 'Sobre',
-      path: '/pages/about'
+      path: '/pages/sobre'
     },
-    {
-      label: 'Contato',
-      path: '/pages/contacts'
-    }
   ],
   author: {
     name: 'Anuar Daher',
     photo: '/anuar.jpg',
-    bio: '27 anos, desenvolvedor de software em Goiânia. Escrevo sobre tecnologia e compartilho experiências 😎',
+    bio: '27 anos, desenvolvedor de software em Goiânia. Escrevo sobre tecnologia e compartilho experiências 😄',
     contacts: {
       email: 'anuar_daher@hotmail.com',
       facebook: 'anuar.daher.9',
