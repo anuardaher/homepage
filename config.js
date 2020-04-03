@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://anuar.netlify.com',
   pathPrefix: '/',
   title: 'Anuar Daher ',
-  subtitle: 'Desenvolvedor de sofware com enfâse em tecnologias baseadas no Javascript.',
+  subtitle: '27 anos, desenvolvedor de software em Goiânia. Falando da vida e sobre minhas experiências profissionais :D',
   copyright: 'Anuar Daher©  ' + new Date().getFullYear(),
   disqusShortname: 'anuardaher',
   postsPerPage: 4,
@@ -16,18 +16,18 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'Sobre mim',
+      label: 'Sobre',
       path: '/pages/about'
     },
     {
-      label: 'Entre em contato',
+      label: 'Contato',
       path: '/pages/contacts'
     }
   ],
   author: {
     name: 'Anuar Daher',
     photo: '/anuar.jpg',
-    bio: 'Desenvolvedor de sofware com enfâse em tecnologias baseadas no Javascript.',
+    bio: '27 anos, desenvolvedor de software em Goiânia. Escrevo sobre tecnologia e compartilho experiências 😎',
     contacts: {
       email: 'anuar_daher@hotmail.com',
       facebook: 'anuar.daher.9',

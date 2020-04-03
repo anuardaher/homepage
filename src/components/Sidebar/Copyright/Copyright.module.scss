@@ -4,4 +4,11 @@
 .copyright {
   color: lighten($color-gray, 18%);
   font-size: $typographic-small-font-size;
+  display: none;
+}
+
+@include breakpoint-sm {
+  .copyright {
+    display: inline;
+  }
 }

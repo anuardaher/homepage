@@ -18,8 +18,6 @@ const Author = ({ author, isIndex }: Props) => (
       <img
         src={withPrefix(author.photo)}
         className={styles['author__photo']}
-        width="90"
-        height="90"
         alt={author.name}
       />
     </Link>

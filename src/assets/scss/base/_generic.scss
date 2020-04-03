@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  background: radial-gradient(rgba(40,42,54,1) 10%, rgba(56,58,89,1) 85%);
   margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
   color: $typographic-base-font-color;
@@ -152,6 +153,9 @@ figcaption {
 }
 
 @include breakpoint-sm {
+  body {
+    background: linear-gradient(90deg, rgba(40,42,54,1) 30%, rgba(56,58,89,1) 80%);
+  }
   figure.float-left,
   figure.float-right {
     max-width: 310px;
