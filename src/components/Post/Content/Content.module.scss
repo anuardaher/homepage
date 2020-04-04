@@ -19,12 +19,11 @@
   }
 
   &__data {
-    font-size: $typographic-base-font-size * 1.5;
+    font-size: $typographic-base-font-size * 1;
     max-width: $layout-post-width;
     margin-left: auto;
     margin-right: auto;
     color: $color-secondary;
-    @include line-height(1.5)
   }
 
   &__body {
@@ -76,11 +75,6 @@
       @include line-height(2.25);
       @include margin-top(2.25);
       @include margin-bottom(1.5)
-    }
-
-    &__data {
-      font-size: $typographic-base-font-size * 1;
-      @include line-height(1)
     }
 
     &__body {

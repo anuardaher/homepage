@@ -12,7 +12,7 @@ type Props = {
 const Content = ({ body, title, date }: Props) => (
   <div className={styles['content']}>
     <h1 className={styles['content__title']}>{title}</h1>
-    <div className={styles['content__data']}> <Meta date={date}/> </div> 
+    <div className={styles['content__data']}> <Meta date={date}/></div> 
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
 );

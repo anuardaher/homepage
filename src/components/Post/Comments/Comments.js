@@ -16,12 +16,12 @@ const Comments = ({ postTitle, postSlug }: Props) => {
   }
 
   return (
-    <ReactDisqusComments
-      shortname={disqusShortname}
-      identifier={postTitle}
-      title={postTitle}
-      url={url + postSlug}
-    />
+      <ReactDisqusComments
+        shortname={disqusShortname}
+        identifier={postTitle}
+        title={postTitle}
+        url={url + postSlug}
+      />
   );
 };
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import moment from 'moment';
 import 'moment/locale/pt-br';
-import { Link } from 'gatsby';
+import AniLink  from "gatsby-plugin-transition-link/AniLink";
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
 
@@ -20,14 +20,14 @@ const Feed = ({ edges }: Props) => (
           </time>
           <span className={styles['feed__item-meta-divider']} />
           <span className={styles['feed__item-meta-category']}>
-            <Link to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.category}</Link>
+            <AniLink fade duration={0.5} to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.category}</AniLink>
           </span>
         </div>
         <h2 className={styles['feed__item-title']}>
-          <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
+          <AniLink cover bg="#383a59" duration={0.7} className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</AniLink>
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
-        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Leia mais</Link>
+        <AniLink cover bg="#383a59" duration={0.7} className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Leia mais</AniLink>
       </div>
     ))}
   </div>

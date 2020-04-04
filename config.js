@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://anuar.netlify.com',
+  url: 'https://anuardaher.com',
   pathPrefix: '/',
-  title: 'Anuar Daher ',
-  subtitle: '27 anos, desenvolvedor de software em Goiânia. Falando da vida e sobre minhas experiências profissionais :D',
+  title: 'Anuar Daher',
+  subtitle: '27 anos, desenvolvedor de software em Goiânia. Escrevo sobre tecnologia, programação e computação em geral.',
   copyright: 'Anuar Daher©  ' + new Date().getFullYear(),
   disqusShortname: 'anuardaher',
   postsPerPage: 4,

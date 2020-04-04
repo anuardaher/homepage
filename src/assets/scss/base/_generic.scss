@@ -82,7 +82,7 @@ hr {
   margin-top: 52px;
   margin-bottom: 52px;
   border: 0;
-  color: $color-base;
+  color: $typographic-base-font-color;
   display: block;
   height: 26px;
   margin-right: auto;
@@ -140,7 +140,7 @@ figure {
 figcaption {
   @include line-height(.75);
   @include margin-top(.25);
-  color: $color-base;
+  color: $typographic-base-font-color;
   font-size: $typographic-small-font-size;
   font-style: italic;
   margin-bottom: 0;

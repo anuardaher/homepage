@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { Link } from 'gatsby';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
@@ -20,7 +20,7 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">Ver todos</Link>
+      <AniLink cover direction="right" bg="#282a36" duration={0.7} className={styles['post__home-button']} to="/">Ver todos</AniLink>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} date={date} />
