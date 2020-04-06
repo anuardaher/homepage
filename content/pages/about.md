@@ -5,7 +5,7 @@ socialImage: /media/image-2.jpg
 slug: sobre
 draft: false
 ---
-Tenho 27 anos e moro em Goiânia – GO. Sou formado em Sistemas de Informação pela Universidade Federal de Goiás e, atualmente, trabalho como Desenvolvedor Pleno Fullstack na ONI Soluções em Saúde. Gosto de estar com amigos e creio que compartilhar conhecimento seja a melhor maneira de aprender.
+Tenho 27 anos e moro em Goiânia. Sou formado em Sistemas de Informação pela Universidade Federal de Goiás e, atualmente, trabalho como Desenvolvedor Pleno Fullstack na [ONI Tecnologia](https://onitecnologia.com.br/). Gosto de estar com amigos e creio que compartilhar conhecimento seja a melhor maneira de aprender.
 
 ![Pitch final no Hackinnovation Mobinova, hackaton para idealizar soluções em transporte público no qual atuei como desenvolvedor](/media/hackaton.jpg "Anuar Daher - Desenvolvedor de Software")
 
@@ -13,7 +13,7 @@ Trabalhei 7 anos no serviço público como Assessor de Planejamento na [Prefeitu
 
 Fui estagiário na [Buzzlead](https://buzzlead.com.br/), startup que oferece plataforma e estratégias de marketing por indicação para que seus clientes vendam mais. Atuei como desenvolvedor fullstack, lidando com tecnologias como NodeJS, Angular 1.6 e MongoDB.
 
-Atualmente, faço parte da equipe de desenvolvimento da Oni Soluções, trabalhando com PHP, Zend, OracleDB, VueJS e desenvolvendo API's em NodeJS. Também mantenho um sistema de publicações e divulgação de conteúdos jurídicos, a [UC Advogados](https://ucadvogados.com.br). Foi desenvolvida em Node, Vue, Nuxt, Vuetify e MongoDB.
+Atualmente, faço parte da equipe de desenvolvimento da[ Oni Tecnologia](https://onitecnologia.com.br/), trabalhando com PHP, Zend, OracleDB, VueJS e desenvolvendo API's em NodeJS. Também mantenho um sistema de publicações e divulgação de conteúdos jurídicos, a [UC Advogados](https://ucadvogados.com.br). Foi desenvolvida em Node, Vue, Nuxt, Vuetify e MongoDB.
 
 ### Habilidades
 
