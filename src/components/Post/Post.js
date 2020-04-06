@@ -14,7 +14,7 @@ type Props = {
 };
 
 const Post = ({ post }: Props) => {
-  const { html } = post;
+  const { html, timeToRead } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
@@ -23,7 +23,7 @@ const Post = ({ post }: Props) => {
       <AniLink cover direction="right" bg="#282a36" duration={0.7} className={styles['post__home-button']} to="/">Ver todos</AniLink>
 
       <div className={styles['post__content']}>
-        <Content body={html} title={title} date={date} />
+        <Content body={html} title={title} date={date} timeToRead={timeToRead} />
       </div>
 
       <div className={styles['post__footer']}>

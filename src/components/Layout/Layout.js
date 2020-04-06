@@ -10,6 +10,7 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
+  keywords: String,
   socialImage? :string
 };
 
@@ -17,6 +18,7 @@ const Layout = ({
   children,
   title,
   description,
+  keywords,
   socialImage
 }: Props) => {
   const { author, url } = useSiteMetadata();
@@ -29,6 +31,7 @@ const Layout = ({
         <html lang="pt-br" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
         <meta property="og:site_name" content={title} />
         <meta property="og:image" content={metaImageUrl} />
         <meta name="twitter:card" content="summary" />
