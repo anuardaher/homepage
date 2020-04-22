@@ -12,8 +12,8 @@ type Props = {
 const Meta = ({ date, timeToRead }: Props) => (
   <div className={styles['meta']}>
     <p className={styles['meta__date']}>
-      {moment(date).locale('pt-br').format('DD [de] MMMM [de] YYYY')}
-      <span className={styles['meta__time']}> • {timeToRead} {timeToRead == 1 ? 'minuto' : 'minutos'} de leitura</span>
+      {moment(date).locale('pt-br').format('DD [de] MMMM [de] YYYY')} 
+        <span className={styles['meta__time']}> • {timeToRead} {timeToRead == 1 ? 'minuto' : 'minutos'} de leitura</span>
     </p>
   </div>
 );

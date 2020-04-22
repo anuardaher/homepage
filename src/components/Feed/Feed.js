@@ -24,10 +24,10 @@ const Feed = ({ edges }: Props) => (
           </span>
         </div>
         <h2 className={styles['feed__item-title']}>
-          <AniLink cover bg="#383a59" duration={0.7} className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</AniLink>
+          <AniLink cover bg="#282a36" duration={0.7} className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</AniLink>
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
-        <AniLink cover bg="#383a59" duration={0.7} className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Leia mais</AniLink>
+        <AniLink cover bg="#282a36" duration={0.7} className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Leia mais</AniLink>
       </div>
     ))}
   </div>
