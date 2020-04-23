@@ -188,7 +188,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/anuar.jpg'
+        icon: 'static/anuar.png'
       },
     },
     'gatsby-plugin-offline',

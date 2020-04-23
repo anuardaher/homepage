@@ -23,7 +23,7 @@ module.exports = {
   ],
   author: {
     name: 'Anuar Daher',
-    photo: '/anuar.jpg',
+    photo: '/anuar.png',
     bio: '27 anos, desenvolvedor de software em Goiânia. Escrevo sobre tecnologia e compartilho experiências 😄',
     contacts: {
       email: 'anuar_daher@hotmail.com',
