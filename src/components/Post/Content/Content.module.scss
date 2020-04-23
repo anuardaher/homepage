@@ -7,6 +7,7 @@
   margin: 0 auto;
 
   &__title {
+    color: $color-white;
     font-size: $typographic-base-font-size * 2;
     max-width: $layout-post-width;
     margin-left: auto;

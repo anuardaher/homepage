@@ -20,7 +20,7 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <AniLink cover direction="right" bg="#282a36" duration={0.7} className={styles['post__home-button']} to="/">Ver todos</AniLink>
+      <AniLink cover direction="right" bg="#1b1711" duration={0.7} className={styles['post__home-button']} to="/">Ver todos</AniLink>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} date={date} timeToRead={timeToRead} />

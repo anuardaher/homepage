@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background: #282a36;
+  background: #1b1711;
   margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
   color: $typographic-base-font-color;
@@ -24,9 +24,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+strong {
   font-family: $typographic-font-family;
   font-weight: 600;
+  color: $color-white;
 }
 
 h1 {
