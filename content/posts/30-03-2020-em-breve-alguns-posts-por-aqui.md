@@ -7,7 +7,7 @@ date: 2020-04-23T04:34:00.000Z
 description: >-
   O Nuxt.js é um framework do Vue.js que trás diversos benefícios para tornar o
   projeto produtivo, escalável e performático.
-category: 'Frontend, VueJS'
+category: VueJS
 tags:
   - NuxtJS
   - VueJS
