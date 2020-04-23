@@ -7,17 +7,20 @@ date: 2020-04-23T04:34:00.000Z
 description: >-
   O Nuxt.js é um framework do Vue.js que trás diversos benefícios para tornar o
   projeto produtivo, escalável e performático.
-category: Frontend VueJS
+category: 'Frontend, VueJS'
 tags:
-  - NuxtJs VueJs Javascript Frontend
+  - NuxtJS
+  - VueJS
+  - Frontend
+  - Javascript
 ---
 O [Nuxt,js](https://nuxtjs.org/guide) é um framework Vue.js que facilita quando o objetivo é tirar de vez aquela grande ideia do papel, algo que você planeje desenvolver pensando em maximizar cada aspecto do seu frontend desde a produtividade da equipe até a performace da aplicação. O framework trás um ambiente pronto para produção, abstraindo diversas configurações e situações que te permitem focar mais na solução do seu problema e menos em aspectos tecnológicos que um ambiente maduro exige.
 
-Certo, então quais seriam TODAS essas maravilhas que o Nuxt.js podem nos proporcionar... Veremos a seguir.
+Certo, então quais seriam TODAS essas maravilhas que o Nuxt.js pode nos proporcionar... Veremos a seguir.
 
-![Nuxt.js: um framework Vue.js](/media/nuxtjs.png "Nuxt.js: um framework Vue.js")
+![Nuxt.js: um framework Vue.js](/media/nuxtjs-introduction-1-638.jpg "Nuxt.js: um framework Vue.js")
 
-## 1. Estrutura de diretórios e arquivo de configuração central 🗂
+## 1. Estrutura de diretórios e arquivo de configuração central
 
 "Onde vou colocar minhas views?", "views ou pages?", "Onde e como configuro essa biblioteca que adiconei?!" são perguntas normais ao começar um novo projeto com o Vue-cli, por exemplo. Talvez para alguém mais experiente, isso não seja um problema, mas para novos usuários e pessoas que migram de outros frameworks, isso possa ser uma barreira.
 
