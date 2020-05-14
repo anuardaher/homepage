@@ -22,10 +22,9 @@ Atualmente, faço parte da equipe de desenvolvimento da[ Oni Tecnologia](https:/
 * Vue, Vuex, Nuxt e Vuetify;
 * React e Gatsby;
 * Design responsivo e boas praticas de interação humano-computador;
-* NodeJs, Express, Rest e GraphQL;
+* NodeJs, Express, REST e GraphQL;
 * Linguagens: Javascript, PHP e Swift;
-* Git e o básico em SVN com Tortoise;
-* MongoDB e básico em MySQL e OracleDB;
-* Git e o básico em SVN com Tortoise;
+* Git e SVN com Tortoise;
+* MongoDB, MySQL e OracleDB;
 * Scrum;
 * Inglês avançado.
