@@ -24,3 +24,9 @@
   }
 
 }
+
+@include breakpoint-lg {
+  .author {
+    max-width: $layout-post-width * 1.2;
+  }
+}

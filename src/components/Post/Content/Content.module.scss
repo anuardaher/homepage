@@ -93,3 +93,26 @@
   }
 
 }
+
+@include breakpoint-lg {
+  .content {
+    &__title {
+      max-width: $layout-post-width * 1.2;
+    }
+    &__data {
+      max-width: $layout-post-width * 1.2;
+    }
+    &__body {
+      & figure {
+        & blockquote {
+          & p {
+            max-width: $layout-post-width * 1.2;
+          }
+        }
+      }
+      & * {
+        max-width: $layout-post-width * 1.2;
+      }
+    }
+  }
+}

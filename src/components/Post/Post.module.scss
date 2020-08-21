@@ -61,3 +61,14 @@
   }
 
 }
+@include breakpoint-lg {
+  .post {
+    &__footer {
+      max-width: $layout-post-width * 1.2;
+    }
+    
+    &__comments {
+      max-width: $layout-post-width * 1.2
+    }
+  }
+}

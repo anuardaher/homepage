@@ -1,7 +1,7 @@
 ---
 template: page
 title: Quem sou
-socialImage: /media/image-2.jpg
+socialImage: /media/hackaton.jpg
 slug: sobre
 draft: false
 ---
