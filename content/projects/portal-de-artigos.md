@@ -11,4 +11,4 @@ tags:
   - Vuetify 
   - NodeJS
 socialImage: /media/hackaton.jpg
-link: 'https://anuar-publish-app.herokuapp.com/'
+link: 'https://anuar-publisher-app.herokuapp.com/'
