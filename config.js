@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://anuardaher.com',
   pathPrefix: '/',
   title: 'Anuar Daher - Fullstack Developer',
-  subtitle: '27 anos, desenvolvedor de software em Goiânia. Aqui publico meus projeto e escrevo sobre programação, tecnologia e computação em geral.',
+  subtitle: `${new Date().getFullYear() - 1993} yo, living in Goiânia - Brazil. I have a bacharelor degree in Information Systems and I love to code 👩‍💻`,
   keywords: 'Programador, desenvolvedor, software, HTML, CSS, Javascript, Node, Vue, Backend, Frontend, Mongo, Dev, Freela, Freelancer, Anuar, Desenvolvimento',
   copyright: 'Anuar Daher©  ' + new Date().getFullYear(),
   disqusShortname: 'anuardaher',
@@ -29,7 +29,7 @@ module.exports = {
   author: {
     name: 'Anuar Daher',
     photo: '/anuar.png',
-    bio: '27 anos, desenvolvedor de software em Goiânia. Aqui publico meus projetos e artigos sobre desenvolvimento de software em geral 😄',
+    bio: `${new Date().getFullYear() - 1993} yo, living in Goiânia - Brazil. I have a bacharelor degree in Information Systems and I love to code 👩‍💻`,
     contacts: {
       email: 'anuar_daher@hotmail.com',
       facebook: 'anuar.daher.9',
@@ -38,8 +38,8 @@ module.exports = {
       github: 'anuardaher',
       rss: '',
       vkontakte: '',
-      linkedin: 'anuar-daher-015691104/',
-      instagram: 'annuardaher/',
+      linkedin: 'anuardaher',
+      instagram: 'annuardaher',
       line: '',
       gitlab: '',
       weibo: '',
